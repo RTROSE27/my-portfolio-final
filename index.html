@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rochelle Rose is a front-end developer based in Canada. She uses HTML, CSS, and JavaScript in her projects"
+    />
+    <title>Rochelle Rose | Front-end developer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fcadf26f8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Rochelle Rose</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="website-wrapper">
+      <div class="container">
+        <div class="welcome-statement">
+          <h1 class="mb-4">Hello! I'm Maria.</h1>
+          <h3>
+            A front-end developer with a passion for creating engaging and
+            user-friendly web experiences. 😎
+          </h3>
+        </div>
+        <div class="down-arrow">
+          <i class="fa-solid fa-angles-down"></i>
+        </div>
+
+        <h2 class="section-name mt-5">My toolkit</h2>
+        <div>
+          <ul class="skills">
+            <li>
+              <div class="icon-skills text-center">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              HTML5
+            </li>
+            <li>
+              <div class="icon-skills text-center">
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              CSS3
+            </li>
+            <li>
+              <div class="icon-skills text-center">
+                <i class="fa-brands fa-square-js"></i>
+              </div>
+              JavaScript
+            </li>
+            <li>
+              <div class="icon-skills text-center">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              GitHub
+            </li>
+            <li>
+              <div class="icon-skills text-center">
+                <i class="fa-brands fa-bootstrap"></i>
+              </div>
+              Bootstrap
+            </li>
+          </ul>
+        </div>
+
+        <h2 id="projects" class="section-name mt-5">Projects</h2>
+        <div class="row align-items-center my-5">
+          <div class="col-md-6 mb-5">
+            <img
+              src="/images/weatherapp.png"
+              alt="weather app screenshot"
+              class="projects-img shadow-sm"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2>Weather app</h2>
+            <p class="text-start">
+              A weather app made with Vanilla JS. Search for the weather in your
+              current city or anywhere else in the world! It also features a
+              6-day forecast weather. Weather data come from the SheCodes
+              weather API.
+              <br />
+              <br />
+              <strong> Made with </strong>
+            </p>
+            <div class="project-icons">
+              <i title="HTML5" class="fa-brands fa-html5"></i>
+              <i title="CSS3" class="fa-brands fa-css3-alt"></i>
+              <i title="Bootstrap" class="fa-brands fa-bootstrap"></i>
+              <i title="JavaScript" class="fa-brands fa-square-js"></i>
+            </div>
+
+            <div class="project-links mt-5">
+              <div>
+                <a
+                  href="https://zesty-otter-a2601f.netlify.app"
+                  target="_blank"
+                  class="primary-button"
+                >
+                  View live</a
+                >
+              </div>
+              <div mb-5 mt-3>
+                <a
+                  href="https://github.com/RTROSE27/My-weather-app"
+                  target="_blank"
+                  class="primary-button"
+                >
+                  GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center text-end project">
+          <div class="col-md-6 order-md-first order-last">
+            <h2>World clock app</h2>
+            <p>
+              A clock app made with Vanilla JS and the MomentJS library. Get the
+              date and time of different cities around the wordl!
+              <br />
+              <br />
+              <strong> Made with </strong>
+            </p>
+            <div class="project-icons justify-content-end">
+              <i title="HTML5" class="fa-brands fa-html5"></i>
+              <i title="CSS3" class="fa-brands fa-css3-alt"></i>
+              <i title="Bootstrap" class="fa-brands fa-bootstrap"></i>
+              <i title="JavaScript" class="fa-brands fa-square-js"></i>
+            </div>
+
+            <div class="project-links mt-5 justify-content-end">
+              <div>
+                <a
+                  href="https://tiny-blancmange-25df4d.netlify.app"
+                  target="_blank"
+                  class="primary-button"
+                >
+                  View live
+                </a>
+              </div>
+              <div mb-5 mt-3>
+                <a
+                  href="https://github.com/RTROSE27/World-Clock"
+                  target="_blank"
+                  class="primary-button"
+                >
+                  GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-5">
+            <img
+              src="/images/worldclock.png"
+              alt="worldclock app screenshot"
+              class="projects-img shadow-sm"
+            />
+          </div>
+        </div>
+
+        <div class="row align-items-center project">
+          <div class="col-md-6 mb-5">
+            <img
+              src="/images/dictionary-app.png"
+              alt="dictionary app screenshot"
+              class="projects-img shadow-sm"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2>Dictionary app</h2>
+            <p>
+              Comming soon!
+              <br />
+              This disctionary app will be made with React and data obtained
+              from two APIs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="contact-me">
+      <h2 class="section-name mb-3 text-center text-md-start">
+        Contact me <i class="fa-regular fa-paper-plane"></i>
+      </h2>
+      <p class="text-center">
+        Have a project in mind? Let's collaborate and bring your ideas to life!
+      </p>
+      <div>
+        <strong>
+          <p class="text-center">rochelletrose1@gmail.com</p>
+        </strong>
+        <div class="contact-icons-wrap">
+          <a
+            title="LinkedIn"
+            href="https://www.linkedin.com/in/rochelle-rose-02cc/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin icon-contact"></i
+          ></a>
+          <a title="GitHub" href="https://github.com/RTROSE27" target="_blank"
+            ><i class="fa-brands fa-github icon-contact"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      This website was developed my <strong>Maria Soto</strong> and is
+      <a href="https://github.com/mariasotor/Portfolio"
+        >open-sourced on Github</a
+      >
+    </footer>
+  </body>
+</html>
